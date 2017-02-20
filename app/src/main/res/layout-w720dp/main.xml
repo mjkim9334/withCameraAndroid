@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="?attr/actionBarSize"
+    android:background="@drawable/bg_2560">
+
+    <!--<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#4FFFFFFF" />-->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical">-->
+
+            <!--<ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="35dp"
+                android:layout_weight="0"
+                android:scaleType="fitCenter"
+                android:src="@drawable/logo"
+                android:background="#33000000"/>-->
+
+            <!--<LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#22FFFFFF" />-->
+
+            <fragment
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:name="com.kt.iot.mobile.ui.fragment.device.list.DeviceListFragment"
+                android:id="@+id/device_list_fragment"/>
+
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout
+            android:orientation="vertical"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#4FFFFFFF" />-->
+
+        <!--<RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="18dp"
+            android:backgroundTintMode="src_atop">-->
+
+            <!--<ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView"
+                android:background="@drawable/bg_04"
+                android:scaleType="centerCrop" />-->
+
+            <fragment
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="18dp"
+                android:layout_marginBottom="18dp"
+                android:layout_marginRight="18dp"
+                android:name="com.kt.iot.mobile.ui.fragment.device.DeviceFragment"
+                android:id="@+id/device_fragment"
+                android:layout_weight="1"/>
+
+        <!--</RelativeLayout>-->
+
+        <!--<LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3">
+
+            <fragment
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:name="com.kt.iot.mobile.ui.fragment.device.list.DeviceListFragment"
+                android:id="@+id/device_list_fragment" />
+
+        </LinearLayout>-->
+
+        <!--<LinearLayout
+            android:id="@+id/fragment_container"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />-->
+
+    </LinearLayout>
+
+</LinearLayout>

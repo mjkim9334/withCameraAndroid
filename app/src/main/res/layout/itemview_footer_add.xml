@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp">
+
+    <ImageView
+        android:id="@+id/iv_svctgtlist_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/plus"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/tv_foot_add"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:gravity="center_vertical"
+        android:text="null"
+        android:textSize="17sp"
+        android:textColor="#222222"
+        android:fontFamily="sans-serif-thin"
+        android:maxLines="1"
+        android:ellipsize="end"/>
+</LinearLayout>

@@ -1,0 +1,81 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:actionBarStyle">@style/CustomActionBar</item>
+        <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicatorCustom</item>
+        <item name="vpiTabPageIndicatorStyleLeft">@style/Widget.TabPageIndicatorCustomLeft</item>
+        <item name="vpiTabPageIndicatorStyleRight">@style/Widget.TabPageIndicatorCustomRight</item>
+
+        <!-- Support library compatibility -->
+        <item name="windowActionBarOverlay">true</item>
+        <item name="actionBarStyle">@style/CustomActionBar</item>
+
+    </style>
+
+    <style name="CustomActionBar"
+        parent="@style/Widget.AppCompat.ActionBar">
+        <item name="background">@color/actionbar_background</item>
+        <item name="android:textColor">@color/actionbar_text</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:titleTextStyle">@style/MyActionBarTitleText</item>
+        <item name="android:windowContentOverlay">@null</item>
+
+        <!-- Support library compatibility -->
+        <item name="titleTextStyle">@style/MyActionBarTitleText</item>
+    </style>
+
+    <!-- ActionBar title text -->
+    <style name="MyActionBarTitleText"
+        parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/actionbar_text</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+        <item name="android:textSize">19sp</item>
+        <!-- The textColor property is backward compatible with the Support Library -->
+
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+
+    <!--<style name="Theme.PageIndicatorCustom" parent="android:Theme">
+        <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
+    </style>-->
+
+    <style name="Widget">
+    </style>
+
+    <style name="Widget.TabPageIndicatorCustom" parent="Widget">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/bg_tag_tab_sel</item>
+        <item name="android:paddingLeft">22dip</item>
+        <item name="android:paddingRight">22dip</item>
+        <item name="android:paddingTop">7dp</item>
+        <item name="android:paddingBottom">7dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.TabPageIndicator</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="TextAppearance.TabPageIndicator" parent="Widget">
+        <item name="android:fontFamily">sans-serif-thin</item>
+        <item name="android:textColor">#222222</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="Widget.TabPageIndicatorCustomLeft" parent="Widget.TabPageIndicatorCustom">
+        <item name="android:background">@drawable/bg_tag_tab_left_sel</item>
+    </style>
+
+    <style name="Widget.TabPageIndicatorCustomRight" parent="Widget.TabPageIndicatorCustom">
+        <item name="android:background">@drawable/bg_tag_tab_right_sel</item>
+    </style>
+
+
+</resources>

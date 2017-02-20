@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="65dp"
+    android:text=""
+    android:id="@+id/title"
+    android:layout_gravity="center"
+    android:textColor="#808000"
+    />
+
+    <!--
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="20dp"
+                android:singleLine="true"
+                android:padding="10dp"
+                android:text="Date: "
+                android:textColor="#808000"
+                android:id="@+id/textView6" />
+                -->
+<!--
+        <EditText
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/month"
+            android:includeFontPadding="false"
+            android:textColor="#808000"
+            android:hint="mon"
+            />
+            -->
+
+<!--
+
+        <TextView
+
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:singleLine="true"
+            android:padding="10dp"
+            android:text="월 "
+            android:textColor="#808000"
+            />
+
+        <EditText
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/day"
+            android:includeFontPadding="false"
+            android:textColor="#808000"
+            android:hint="day"
+            />
+
+
+
+        <TextView
+
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:singleLine="true"
+            android:padding="10dp"
+            android:text="일 "
+            android:textColor="#808000"
+            />
+-->
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="160dp"
+        android:id="@+id/memo_edit"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btn_layout"
+        android:hint="메모할 내용을 입력하세요"
+        android:gravity="top"
+
+        />
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/picture" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+       >
+
+        <Button
+            android:layout_marginTop="15dp"
+            android:layout_width="150dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="51dp"
+            android:layout_gravity="center"
+            android:id="@+id/calendar"
+            android:text="날짜 고르기"
+            android:typeface="monospace"
+            android:textColor="#808000"
+            android:background="@color/default_title_indicator_text_color"
+            android:onClick="OnClick"
+            android:layout_weight="0.80" />
+
+        <Button
+
+            android:layout_marginTop="15dp"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/TakeaPicture"
+            android:text="오늘의 식물 찍기"
+            android:typeface="monospace"
+            android:textColor="#808000"
+            android:onClick="OnClick"
+            android:background="@color/default_title_indicator_text_color"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+    android:layout_gravity="center">
+    <Button
+
+        android:layout_marginTop="10dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/storeMemo"
+        android:text="메모 저장"
+        android:typeface="monospace"
+        android:textColor="#808000"
+        android:onClick="OnClick"
+        android:background="@color/default_title_indicator_text_color"
+        />
+
+    <Button
+
+    android:layout_marginTop="10dp"
+    android:layout_width="150dp"
+    android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+    android:layout_gravity="center"
+    android:id="@+id/confirm"
+    android:text="확인"
+    android:typeface="monospace"
+    android:textColor="#808000"
+        android:onClick="OnClick"
+        android:background="@color/default_title_indicator_text_color"
+    />
+</LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_login"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="20dp"
+        android:padding="30dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+
+            android:text="MENU"
+            android:textSize="40dp"
+            android:typeface="monospace"
+            android:textColor="#808000"
+            />
+
+        <Button
+            android:layout_width="230dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:id="@+id/Log"
+            android:text="Log/Control"
+            android:textSize="20dp"
+            android:typeface="monospace"
+            android:textColor="#808000"
+            android:background="@color/default_title_indicator_text_color"
+            />
+
+
+        <Button
+            android:layout_width="230dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:id="@+id/plant_type"
+            android:text="Plant Type"
+            android:textSize="20dp"
+            android:typeface="monospace"
+            android:textColor="#808000"
+            android:background="@color/default_title_indicator_text_color"
+            />
+
+        <Button
+            android:layout_width="230dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:id="@+id/data"
+            android:text="Plant Data"
+            android:textSize="20dp"
+            android:typeface="monospace"
+            android:textColor="#808000"
+            android:background="@color/default_title_indicator_text_color"
+            />
+
+        <Button
+            android:layout_width="230dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:id="@+id/plantImage"
+            android:text="Plant Image"
+            android:textSize="20dp"
+            android:typeface="monospace"
+            android:textColor="#808000"
+            android:background="@color/default_title_indicator_text_color"
+            />
+
+        <Button
+            android:layout_width="230dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/Write"
+            android:text="Plant Record"
+            android:textSize="20dp"
+            android:typeface="monospace"
+            android:textColor="#808000"
+            android:background="@color/default_title_indicator_text_color"/>
+
+        <!--
+                <Button
+                    android:layout_width="230dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/Plant_picture"
+                    android:text="Plant Picture"
+                    android:textSize="20dp"
+                    />
+                    -->
+
+
+        <!--<RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:layout_marginTop="40dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_login_bt_findid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bg_bt_id_find_sel"/>
+                <TextView
+                    android:id="@+id/tv_login_findid_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:fontFamily="sans-serif-thin"
+                    android:includeFontPadding="false"
+                    android:textColor="#555555"
+                    android:layout_gravity="center_horizontal"
+                    android:text="아이디 찾기"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_login_bt_findpw"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bg_bt_pw_find_sel"/>
+                <TextView
+                    android:id="@+id/tv_login_findpw_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:fontFamily="sans-serif-thin"
+                    android:includeFontPadding="false"
+                    android:textColor="#555555"
+                    android:layout_gravity="center_horizontal"
+                    android:text="비밀번호 찾기"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>-->
+
+    </LinearLayout>
+
+
+</RelativeLayout>

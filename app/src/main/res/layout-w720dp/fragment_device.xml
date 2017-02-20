@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:background="@drawable/bg_rounded_pannel_02">
+
+        <LinearLayout
+            android:id="@+id/device_detail_fragment_container"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"/>
+
+        <fragment
+            android:id="@+id/event_list_fragment"
+            android:name="com.kt.iot.mobile.ui.fragment.event.list.EventListFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2" />
+
+    </LinearLayout>
+
+    <!--<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="1dp"
+        android:layout_height="fill_parent"
+        android:background="#64FFFFFF"
+        android:baselineAligned="false" />-->
+
+    <LinearLayout
+        android:id="@+id/layout_linear_device_rawdata"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="18dp"
+        android:baselineAligned="false"
+        android:layout_weight="4"
+        android:background="@drawable/bg_rounded_pannel_02"
+        android:visibility="invisible">
+
+        <!--<LinearLayout
+            android:id="@+id/control_fragment_container"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:layout_marginTop="5dp" />-->
+
+        <LinearLayout
+            android:id="@+id/device_bottom_fragment_container"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp" />
+    </LinearLayout>
+
+</LinearLayout>

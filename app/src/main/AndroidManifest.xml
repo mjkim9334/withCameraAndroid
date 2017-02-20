@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kt.iot.mobile.android" >
+
+    <uses-feature android:name="android.hardware.camera" android:required="true"/>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+
+    <compatible-screens>
+        <screen android:screenSize="normal" android:screenDensity="240"/>
+        <screen android:screenSize="normal" android:screenDensity="320"/>
+        <screen android:screenSize="normal" android:screenDensity="480"/>
+        <screen android:screenSize="normal" android:screenDensity="640"/>
+        <screen android:screenSize="large" android:screenDensity="240"/>
+        <screen android:screenSize="large" android:screenDensity="320"/>
+        <screen android:screenSize="large" android:screenDensity="480"/>
+        <screen android:screenSize="large" android:screenDensity="640"/>
+    </compatible-screens>
+
+    <supports-screens
+        android:xlargeScreens="false"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appico"
+        android:label="FlowerOre"
+        android:theme="@style/AppTheme"
+        android:name="com.kt.iot.mobile.GiGaIotApplication">
+        <!--android:name=".ui.activity.MainActivity"-->
+        <activity
+            android:name="com.kt.iot.mobile.ui.activity.IntroActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+        android:name="com.kt.iot.mobile.ui.activity.LoginActivity"
+        android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kt.iot.mobile.ui.activity.MenuSelectActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name="com.kt.iot.mobile.ui.activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.kt.iot.mobile.ui.activity.DeviceListActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.kt.iot.mobile.ui.activity.RecordActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name="com.kt.iot.mobile.ui.activity.WriteActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.kt.iot.mobile.ui.activity.ShowActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.kt.iot.mobile.ui.activity.DeviceActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.kt.iot.mobile.ui.activity.DeviceSettingActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.kt.iot.mobile.ui.activity.SettingActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.kt.iot.mobile.ui.activity.CameraActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.kt.iot.mobile.ui.activity.PolicyActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.kt.iot.mobile.ui.activity.OpencvActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.kt.iot.mobile.ui.activity.GuideActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.kt.iot.mobile.ui.activity.BgSettingActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.kt.iot.mobile.ui.activity.AccountActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.kt.iot.mobile.ui.activity.DeviceRegActivity"
+            android:screenOrientation="portrait"/>
+
+        <service android:name="com.kt.iot.mobile.push.GCMIntentService"/>
+
+        <receiver
+            android:name="com.kt.iot.mobile.push.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <!--<action android:name="com.google.android.c2dm.intent.REGISTRATION"/>-->
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <category android:name="com.kt.iot.mobile.android" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <permission android:name="com.kt.iot.mobile.android.permission.C2D_MESSAGE" android:protectionLevel="signature" />
+    <uses-permission android:name="com.kt.iot.mobile.android.permission.C2D_MESSAGE" />
+
+</manifest>

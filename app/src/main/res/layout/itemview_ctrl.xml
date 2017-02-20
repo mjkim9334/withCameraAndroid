@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="72dp">
+
+    <Button
+        android:id="@+id/bt_ctrl_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:layout_alignParentRight="true"
+        android:text="제어하기"
+        android:typeface="monospace"
+        android:textColor="#808000"
+        android:background="@color/default_title_indicator_text_color"/>
+
+    <!--<EditText
+        android:id="@+id/et_ctrl_msg"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/bt_ctrl_send"
+        android:includeFontPadding="false"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:singleLine="true"/>-->
+
+    <TextView
+        android:id="@+id/tv_ctrl_tagname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/bt_ctrl_send"
+        android:text="Event"
+        android:textSize="18sp"
+        android:textColor="#2A2A2A"
+        android:fontFamily="sans-serif-thin"
+        android:maxLines="1"
+        android:ellipsize="end" />
+
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_gradient_right">
+
+    <ListView
+        android:id="@+id/lv_device_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <!--<ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/btn_plus_2560"
+        android:scaleType="fitCenter"/>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="0"
+        android:background="?android:attr/listDivider"/>
+
+    <LinearLayout
+        android:id="@+id/layout_linear_device_add"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:gravity="center">
+
+
+        </LinearLayout>
+
+        <!--<TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/item_add_device"
+            android:textSize="15sp"
+            android:textColor="#222222"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-thin"
+            android:maxLines="1"
+            android:ellipsize="end"/>-->
+
+    </LinearLayout>
+
+</LinearLayout>

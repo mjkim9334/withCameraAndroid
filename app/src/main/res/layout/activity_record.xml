@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:text="기록하기"
+    android:id="@+id/record"
+    android:layout_gravity="center"
+    android:layout_marginTop="100dp"
+        android:onClick="Onclick"
+        android:typeface="monospace"
+        android:textColor="#808000"
+        android:background="@color/default_title_indicator_text_color"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="기록 보기"
+        android:id="@+id/show"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:onClick="Onclick"
+        android:typeface="monospace"
+        android:textColor="#808000"
+        android:background="@color/default_title_indicator_text_color"
+       />
+
+</LinearLayout>

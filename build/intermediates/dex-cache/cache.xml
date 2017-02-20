@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\Desktop\withCameraAndroid\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="C:\Users\User\Desktop\withCameraAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.0_4fc3ecaa66d693420ee06e07f5e68eb412878a91.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\Desktop\withCameraAndroid\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="C:\Users\User\Desktop\withCameraAndroid\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_931c162b81e9fb60e84874e6d2ea9ffcd0773c05.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\Desktop\withCameraAndroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="C:\Users\User\Desktop\withCameraAndroid\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-7.5.0_80a16ca9beb1a449726eac7d5c04b4474cc47f2a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\Desktop\withCameraAndroid\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="C:\Users\User\Desktop\withCameraAndroid\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_c65804eeaa69f13408a895b619443285d8c5e529.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\Desktop\withCameraAndroid\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="C:\Users\User\Desktop\withCameraAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.0_75827d2a758d6df5b3962cddd0df58524773d03c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="C:\Users\User\Desktop\withCameraAndroid\app\build\intermediates\pre-dexed\debug\gson-2.2.4_313aff129984a0a45e086871ec03bfcc02e7284e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\Desktop\withCameraAndroid\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="C:\Users\User\Desktop\withCameraAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.0_830c210887db7bf599900bcc24e2edc7121432b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\Desktop\withCameraAndroid\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="C:\Users\User\Desktop\withCameraAndroid\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_50fc197302e548e5723cc31fffa6134974e6917a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\Desktop\withCameraAndroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="C:\Users\User\Desktop\withCameraAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.0_9ea3b6e450550826805a7b518b605d8812e73d2c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\Desktop\withCameraAndroid\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="C:\Users\User\Desktop\withCameraAndroid\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_a97c60116b188d5930a6940ac06fe0ca8ac9c9a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\Desktop\withCameraAndroid\app\build\intermediates\exploded-aar\com.viewpagerindicator\library\2.4.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="88e8e18d365173ad04a543d76c157e0b644f0b3f">
+        <dex dex="C:\Users\User\Desktop\withCameraAndroid\app\build\intermediates\pre-dexed\debug\com.viewpagerindicator-library-2.4.1_47d5e4aa25158e8b84d9829d4c8f90cf67d98206.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="C:\Users\User\Desktop\withCameraAndroid\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.0_cc6a05b8a61881d207f20506cfe52877b447eace.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\Desktop\withCameraAndroid\app\build\intermediates\exploded-aar\withCameraAndroid\openCVLibrary310\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="608e4700fb6772d37c8d0ba1e2e55ed0e1cde1a1">
+        <dex dex="C:\Users\User\Desktop\withCameraAndroid\app\build\intermediates\pre-dexed\debug\withCameraAndroid-openCVLibrary310-unspecified_ad1d986c1dd3d7987670513be726268fc5bc4017.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\Desktop\withCameraAndroid\app\build\intermediates\exploded-aar\withCameraAndroid\gigaiot-sdk\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="7cfc49bacd8e071548216b73b5a5d0e56dcfcfa3">
+        <dex dex="C:\Users\User\Desktop\withCameraAndroid\app\build\intermediates\pre-dexed\debug\withCameraAndroid-gigaiot-sdk-unspecified_8c24ff77796eff35cb2deecb82c2bf3d9d28bedf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\Desktop\withCameraAndroid\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="C:\Users\User\Desktop\withCameraAndroid\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_3aefa5fe50c5376785b7a406711bc0540862bac1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\Desktop\withCameraAndroid\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="C:\Users\User\Desktop\withCameraAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.0_28a2a6ceb6a3a3189d3d60f8151a33654ffc7940.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\Desktop\withCameraAndroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="C:\Users\User\Desktop\withCameraAndroid\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-7.5.0_a376d1ef5352c86959a7148e03b783960f1d6fd5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\Desktop\withCameraAndroid\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="C:\Users\User\Desktop\withCameraAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.0_0c54094b362a3f170a55fee3c07e3bd09bc3fd4e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\Desktop\withCameraAndroid\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="C:\Users\User\Desktop\withCameraAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.0_ab4518ca8fdaf0b88dce05eb76b6e70f91417b6e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\Desktop\withCameraAndroid\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="C:\Users\User\Desktop\withCameraAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.0_e2e33a9a61eacb9a91577b4147cc9aa23f671922.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.nostra13.universalimageloader\universal-image-loader\1.9.3\a85588bec3e2c4584d593d3f15df1677321bca72\universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="C:\Users\User\Desktop\withCameraAndroid\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.3_151e5fea4880e5d69c540cc1bc72c0f45f3c9d08.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\Desktop\withCameraAndroid\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="C:\Users\User\Desktop\withCameraAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.0_f78cdc14fea1ef287a17e726f4cc65b4be5686c6.jar" />
+    </item>
+
+</items>

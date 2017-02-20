@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="66dp"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_rounded_pannel"
+            android:paddingTop="22dp"
+            android:paddingRight="22dp"
+            android:paddingLeft="22dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Brew schedule"
+                    android:id="@+id/textView"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold"
+                    android:textSize="24sp" />
+
+                <Switch
+                    android:layout_width="160dp"
+                    android:layout_height="26dp"
+                    android:id="@+id/switch1"
+                    android:checked="false"
+                    android:thumb="@drawable/switch_selector"
+                    android:track="@drawable/bt_opt" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5sp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ToggleButton
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="월"
+                        android:id="@+id/toggleButton"
+                        android:checked="false"
+                        android:textOn="월"
+                        android:textOff="월"
+                        android:textSize="12dp"
+                        android:background="@drawable/toggle_selector" />
+
+                    <ToggleButton
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="New ToggleButton"
+                        android:id="@+id/toggleButton2"
+                        android:textOn="화"
+                        android:textOff="화"
+                        android:textSize="12dp"
+                        android:background="@drawable/toggle_selector"
+                        android:layout_marginLeft="12dp" />
+
+                    <ToggleButton
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="New ToggleButton"
+                        android:id="@+id/toggleButton3"
+                        android:textOn="수"
+                        android:textOff="수"
+                        android:textSize="12dp"
+                        android:background="@drawable/toggle_selector"
+                        android:layout_marginLeft="12dp" />
+
+                    <ToggleButton
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="New ToggleButton"
+                        android:id="@+id/toggleButton4"
+                        android:textOff="목"
+                        android:textOn="목"
+                        android:textSize="12dp"
+                        android:background="@drawable/toggle_selector"
+                        android:layout_marginLeft="12dp" />
+
+                    <ToggleButton
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="New ToggleButton"
+                        android:id="@+id/toggleButton5"
+                        android:textOff="금"
+                        android:textOn="금"
+                        android:textSize="12dp"
+                        android:background="@drawable/toggle_selector"
+                        android:layout_marginLeft="12dp" />
+
+                    <ToggleButton
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="New ToggleButton"
+                        android:id="@+id/toggleButton6"
+                        android:textOff="토"
+                        android:textOn="토"
+                        android:textSize="12dp"
+                        android:background="@drawable/toggle_selector"
+                        android:layout_marginLeft="12dp" />
+
+                    <ToggleButton
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="New ToggleButton"
+                        android:id="@+id/toggleButton7"
+                        android:textOff="일"
+                        android:textOn="일"
+                        android:textSize="12dp"
+                        android:background="@drawable/toggle_selector"
+                        android:layout_marginLeft="12dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_horizontal">
+
+                    <TimePicker
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/timePicker"
+                        android:padding="5dp"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:layout_height="40dp"
+                        android:text="Save schedule"
+                        android:id="@+id/button"
+                        android:layout_width="160dp"
+                        android:background="@drawable/button_selector"
+                        android:layout_gravity="bottom|right" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/bg_rounded_pannel"
+            android:layout_marginTop="14dp"
+            android:paddingLeft="22dp"
+            android:layout_marginBottom="14dp"
+            android:gravity="center_vertical"
+            android:paddingRight="22dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Water filter reminders"
+                android:id="@+id/textView2"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:textSize="24sp" />
+
+            <Button
+                android:layout_height="26dp"
+                android:id="@+id/button2"
+                android:layout_marginRight="4dp"
+                android:layout_width="69dp"
+                android:background="@drawable/bt_reset" />
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/switch2"
+                android:checked="false"
+                android:thumb="@drawable/switch_selector"
+                android:track="@drawable/bt_opt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_height="40dp"
+                android:text="Brew"
+                android:id="@+id/button3"
+                android:layout_gravity="right"
+                android:layout_marginRight="5dp"
+                android:layout_width="160dp"
+                android:background="@drawable/button_selector" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

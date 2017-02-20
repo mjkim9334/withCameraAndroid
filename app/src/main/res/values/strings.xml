@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IoT Makers</string>
+
+    <!--common-->
+    <string name="common_cancel">취소</string>
+    <string name="common_wait">잠시만 기다려주세요</string>
+
+    <!--LoginActivity-->
+    <string name="login_id_empty">ID를 입력해주세요</string>
+    <string name="login_pw_empty">비밀번호를 입력해주세요</string>
+    <string name="login_fail">로그인 실패 \n</string>
+
+    <!--Drawer Menu-->
+    <string name="drawer_menu_settings">설정</string>
+    <string name="drawer_menu_guide">앱가이드</string>
+    <string name="drawer_menu_cs">고객센터</string>
+    <string name="drawer_menu_policy">약관과 정책</string>
+    <string name="drawer_menu_list">메뉴</string>
+
+    <!--Option Menu-->
+    <string name="action_settings">Settings</string>
+    <string name="action_ctrl">Control</string>
+
+    <!--Action Bar-->
+    <string name="actionbar_title_dashboard">Dashboard</string>
+    <string name="actionbar_title_settings">설정</string>
+    <string name="actionbar_title_setting_bg">배경화면</string>
+    <string name="actionbar_title_setting_account">사용자 설정</string>
+
+
+    <string name="msg_device_not_found">장치를 찾을 수 없습니다.</string>
+    <string name="msg_empty_svctgt_none">서비스 대상이 없습니다</string>
+    <string name="msg_event_none">이벤트가 없습니다</string>
+    <string name="msg_ctrl_tag_none">제어 태그가 없습니다</string>
+
+    <string name="desc_open_drawer">open drawer</string>
+    <string name="desc_close_drawer">close drawer</string>
+
+    <!--사진 설정-->
+    <string name="image_take_photo">사진 찍기</string>
+    <string name="image_pick_album">앨번에서 사진 가져오기</string>
+
+    <!--배경화면 설정-->
+    <string name="bg_setting_01">배경화면 1</string>
+    <string name="bg_setting_02">배경화면 2</string>
+    <string name="bg_setting_03">배경화면 3</string>
+    <string name="bg_setting_user_custom">사용자 이미지 설정</string>
+
+    <!--Add Item-->
+    <string name="item_add_device">Add device</string>
+    <string name="item_add_service">Add service</string>
+
+    <!--약관과 정책-->
+    <string name="terms_title">이용약관</string>
+    <string name="policy_title">개인정보 수집 및 이용안내</string>
+    <string name="terms">KT 개방형 IoT 포털 서비스 이용약관\nKT 개방형 IoT 포털 서비스 이용약관(\"이용약관\")에는 서비스 공급자인 KT(“KT\") 와 서비스 사용자인 고객(\"고객\" 또는 \"사용자\") 간의 법적 관계를 관할하고 규정하는 조항이 자세히 설명되어 있습니다.KT 개방형 IoT 포털 서비스 이용약관(\"이용약관\")에는 서비스 공급자인 KT(“KT\") 와 서비스 사용자인 고객(\"고객\" 또는 \"사용자\") 간의 법적 관계를 관할하고 규정하는 조항이 자세히 설명되어 있습니다.KT 개방형 IoT 포털 서비스 이용약관(\"이용약관\")에는 서비스 공급자인 KT(“KT\") 와 서비스 사용자인 고객(\"고객\" 또는 \"사용자\") 간의 법적 관계를 관할하고 규정하는 조항이 자세히 설명되어 있습니다.</string>
+    <string name="policy">개인정보 수집 및 이용에 대한 안내\nKT(이하 ‘회사’라 합니다)는 최초 회원가입 또는 서비스 이용 시 이용자로부터 아래와 같은 개인정보를 수집하고 있습니다. 이용자는 본 개인정보 수집•이용 동의서에 따른 동의 시, \'필요한 최소한의 정보 외의 개인정보\' 수집•이용에 동의하지 않을 권리가 있습니다.KT(이하 ‘회사’라 합니다)는 최초 회원가입 또는 서비스 이용 시 이용자로부터 아래와 같은 개인정보를 수집하고 있습니다. 이용자는 본 개인정보 수집•이용 동의서에 따른 동의 시, \'필요한 최소한의 정보 외의 개인정보\' 수집•이용에 동의하지 않을 권리가 있습니다.KT(이하 ‘회사’라 합니다)는 최초 회원가입 또는 서비스 이용 시 이용자로부터 아래와 같은 개인정보를 수집하고 있습니다. 이용자는 본 개인정보 수집•이용 동의서에 따른 동의 시, \'필요한 최소한의 정보 외의 개인정보\' 수집•이용에 동의하지 않을 권리가 있습니다.</string>
+
+    <!--앱가이드-->
+    <string name="guide_01">현장 장치목록을 조회할 수 있습니다.</string>
+    <string name="guide_02">현장 장치의 이벤트 로그 목록을 조회할 수 있습니다.</string>
+    <string name="guide_03">현장 장치의 수집 로그를 조회할 수 있습니다.</string>
+    <string name="guide_04">현장 장치를 제어할 수 있습니다.</string>
+
+</resources>

@@ -1,0 +1,64 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 24
+    buildToolsVersion "21.1.2"
+    defaultConfig {
+        applicationId "com.kt.iot.mobile.android"
+        minSdkVersion 21
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.00"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+
+    }
+
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    // add begin
+    android {
+        sourceSets {
+            main {
+                jni.srcDirs = []
+            }
+        }
+    }
+
+
+    task ndkBuild(type: Exec, description: 'Compile JNI source via NDK') {
+        def ndkDir = project.plugins.findPlugin('com.android.application').sdkHandler.getNdkFolder()
+        commandLine "$ndkDir\\ndk-build.cmd ",
+                'NDK_PROJECT_PATH=build\\intermediates\\ndk',
+                'NDK_LIBS_OUT=src\\main\\JniLibs',
+                'APP_BUILD_SCRIPT=src\\main\\jni\\Android.mk',
+                'NDK_APPLICATION_MK=src\\main\\jni\\Application.mk'
+    }
+
+    tasks.withType(JavaCompile) {
+        compileTask -> compileTask.dependsOn ndkBuild
+    }
+// add end
+
+
+    dependencies {
+        compile fileTree(include: ['*.jar'], dir: 'libs')
+        //compile 'com.android.support:appcompat-v7:21.0.3'
+        //compile 'com.android.support:support-v4:21.0.3'
+        compile 'com.viewpagerindicator:library:2.4.1@aar'
+        compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.3'
+        compile 'com.google.android.gms:play-services-gcm:7.5.0'
+        compile project(':gigaiot-sdk')
+        // compile 'com.android.support:appcompat-v7:24.2.0'
+        compile project(':openCVLibrary310')
+    }
+}
+dependencies {
+    compile 'com.android.support:support-v4:24.2.0'
+    compile 'com.android.support:appcompat-v7:24.2.0'
+}

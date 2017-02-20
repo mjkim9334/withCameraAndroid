@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <!--
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/bi"
+            android:layout_weight="4"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+            -->
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+
+       >
+
+        <TextView
+            android:layout_width="260dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="310dp"
+            android:layout_gravity="center"
+            android:text="FlowerOre"
+            android:typeface="monospace"
+            android:layout_marginLeft="20dp"
+            android:textColor="#808000"
+            android:textSize="40dp"
+
+
+            android:id="@+id/textView5" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:background="@drawable/background_02"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"></LinearLayout>
+        <!--
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/appico"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginRight="80dp"
+                    android:gravity="center"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginBottom="1dp" />
+                    -->
+    </RelativeLayout>
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textSize="35sp"
+        android:layout_margin="20dp"
+        android:textStyle="bold" />-->
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:background="@drawable/background_02"></LinearLayout>
+    <Button
+
+        android:layout_marginTop="50dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/TakeaPicture"
+        android:text="사진찍기"
+        android:typeface="monospace"
+        android:textColor="#808000"
+        android:background="@color/default_title_indicator_text_color"/>
+
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+
+        android:layout_marginTop="10dp"
+        android:id="@+id/picture" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/opencv"
+        android:text="식물 종류 알기"
+        android:typeface="monospace"
+        android:textColor="#808000"
+        android:background="@color/default_title_indicator_text_color"/>
+
+
+</LinearLayout>

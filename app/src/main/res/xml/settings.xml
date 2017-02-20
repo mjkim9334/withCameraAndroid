@@ -1,0 +1,17 @@
+<!--?xml version="1.0" encoding="utf-8"?-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="테마">
+
+        <Preference
+            android:key="pref_theme_bg"
+            android:title="배경화면"
+            android:summary="배경화면을 설정하세요"/>
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

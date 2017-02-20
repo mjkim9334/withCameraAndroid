@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="현장장치 아이디"
+            android:layout_weight="2"
+            android:layout_marginLeft="6dp" />
+        <EditText
+            android:id="@+id/et_device_reg_spotdevid"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:singleLine="true"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="현장장치명"
+            android:layout_weight="2"
+            android:layout_marginLeft="6dp" />
+        <EditText
+            android:id="@+id/et_device_reg_devnm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:singleLine="true"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="현장장치 패스워드"
+            android:layout_weight="2"
+            android:layout_marginLeft="6dp" />
+        <EditText
+            android:id="@+id/et_device_reg_spotdevpw"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:singleLine="true"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="장치 모델명"
+            android:layout_weight="2"
+            android:layout_marginLeft="6dp" />
+        <EditText
+            android:id="@+id/et_device_reg_modelnm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:singleLine="true"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="제조사명"
+            android:layout_weight="2"
+            android:layout_marginLeft="6dp" />
+        <EditText
+            android:id="@+id/et_device_reg_makrnm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:singleLine="true"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="프로토콜 아이디"
+            android:layout_weight="2"
+            android:layout_marginLeft="6dp" />
+
+        <Spinner
+            android:id="@+id/sp_device_reg_protid"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="바인드 유형코드"
+            android:layout_weight="2"
+            android:layout_marginLeft="6dp" />
+
+        <Spinner
+            android:id="@+id/sp_device_reg_bindcd"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+    <!--<Button
+        android:id="@+id/bt_device_reg_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="등록"/>-->
+
+    <Button
+        android:id="@+id/bt_device_reg_register"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="등록"
+        android:layout_gravity="right"
+        android:layout_marginRight="6dp"
+        android:background="@drawable/btn_com02"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:layout_marginTop="7dp" />
+
+</LinearLayout>

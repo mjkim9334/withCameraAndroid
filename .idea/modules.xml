@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gigaiot-sdk/gigaiot-sdk.iml" filepath="$PROJECT_DIR$/gigaiot-sdk/gigaiot-sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openCVLibrary310/openCVLibrary310.iml" filepath="$PROJECT_DIR$/openCVLibrary310/openCVLibrary310.iml" />
+      <module fileurl="file://$PROJECT_DIR$/withCameraAndroid.iml" filepath="$PROJECT_DIR$/withCameraAndroid.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <ImageView
+        android:id="@+id/iv_dashboard_bg"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/bg_01"
+        android:scaleType="centerCrop"/>
+    <ListView
+        android:id="@+id/lv_svctgt"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_gradient_right"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="0"
+        android:background="?android:attr/listDivider"/>
+
+    <!--<LinearLayout
+        android:id="@+id/layout_linear_svctgt_add"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_weight="0"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_gradient_right">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:src="@drawable/plus"
+                android:scaleType="center"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/item_add_service"
+            android:textSize="15sp"
+            android:textColor="#222222"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-thin"
+            android:maxLines="1"
+            android:ellipsize="end"/>
+
+    </LinearLayout>-->
+
+</LinearLayout>

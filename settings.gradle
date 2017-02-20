@@ -1,0 +1,2 @@
+include ':app', ':gigaiot-sdk'
+include ':openCVLibrary310'

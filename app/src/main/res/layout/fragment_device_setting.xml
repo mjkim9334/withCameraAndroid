@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+        <ImageView
+            android:id="@+id/iv_device_setting_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_01"/>
+
+        <ImageView
+            android:id="@+id/iv_device_setting_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="7dp"
+            android:src="@drawable/camera"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.kt.iot.mobile.ui.custom.NSTextView
+                android:id="@+id/tv_device_setting_devnm"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="6dp"
+                android:gravity="center_vertical"
+                android:includeFontPadding="false"
+                android:text="현장장치 이름"
+                android:layout_weight="1" />
+
+            <EditText
+                android:id="@+id/et_device_setting_devnm"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="2"
+                android:layout_marginLeft="7dp"
+                android:singleLine="true"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.kt.iot.mobile.ui.custom.NSTextView
+                android:id="@+id/tv_device_setting_spotdev_id"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="6dp"
+                android:gravity="center_vertical"
+                android:includeFontPadding="false"
+                android:text="현장장치 아이디"
+                android:layout_weight="1" />
+
+            <EditText
+                android:id="@+id/et_device_setting_spotdev_id"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="2"
+                android:layout_marginLeft="7dp"
+                android:singleLine="true"
+                android:autoText="true" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.kt.iot.mobile.ui.custom.NSTextView
+                android:id="@+id/tv_device_setting_dev_model"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="6dp"
+                android:gravity="center_vertical"
+                android:includeFontPadding="false"
+                android:text="장치 모델명"
+                android:layout_weight="1" />
+
+            <EditText
+                android:id="@+id/et_device_setting_dev_model"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="2"
+                android:layout_marginLeft="7dp"
+                android:enabled="false"
+                android:singleLine="true"
+                android:autoText="true" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.kt.iot.mobile.ui.custom.NSTextView
+                android:id="@+id/tv_device_setting_manufacturer"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="6dp"
+                android:gravity="center_vertical"
+                android:includeFontPadding="false"
+                android:text="장치 제조사"
+                android:layout_weight="1" />
+
+            <EditText
+                android:id="@+id/et_device_setting_manufacturer"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="2"
+                android:layout_marginLeft="7dp"
+                android:enabled="false"
+                android:singleLine="true"
+                android:autoText="true" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bt_device_setting_modify"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="수정"
+            android:layout_gravity="right"
+            android:layout_marginRight="6dp"
+            android:background="@drawable/btn_com02"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:layout_marginTop="7dp" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
